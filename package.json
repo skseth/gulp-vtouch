@@ -1,12 +1,12 @@
 {
   "name": "gulp-vtouch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Samir Seth",
   "description": "A plugin to modify time of vinyl files",
   "repository": "https://github.com/skseth/gulp-vtouch.git",
   "license": "MIT",
   "private": false,
-  "devDependencies": {
+  "dependencies": {
     "fs": "0.0.2",
     "glob-stream": "^5.3.1",
     "gutil": "^1.6.4",

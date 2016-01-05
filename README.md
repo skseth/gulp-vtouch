@@ -6,7 +6,8 @@ Change the modified time of the file in the gulp pipeline based on related depen
 
 ```js
 const gulp = require('gulp');
-const changed = require('gulp-vtouch');
+const vtouch = require('gulp-vtouch');
+const changed = require('gulp-changed');
 const sass = require('gulp-sass'); 
 
 gulp.task('default', () => {
@@ -20,6 +21,8 @@ gulp.task('default', () => {
 });
 ```
 ## TODO
+
+Make fsstat async
 
 Add support for custom rules
 
