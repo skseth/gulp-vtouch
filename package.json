@@ -9,7 +9,6 @@
   "dependencies": {
     "fs": "0.0.2",
     "glob-stream": "^5.3.1",
-    "gutil": "^1.6.4",
     "kew": "^0.7.0",
     "path": "^0.12.7",
     "through2": "^2.0.0"
